@@ -23,7 +23,7 @@ const items = [
 function AppHero() {
   return (
     <div className="heroBlock">
-      <Carousel>
+      <Carousel autoplay>
         {items.map((item, index) => {
           return (
             <div className="container-fluid" key={index}>
