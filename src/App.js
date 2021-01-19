@@ -1,9 +1,9 @@
-import logo from "./logo.svg";
 import "./App.css";
 import "antd/dist/antd.css";
 
 import { Layout } from "antd";
 import AppHeader from "./components/common/header";
+import AppHome from "./components/views/home";
 
 const { Header, Content } = Layout;
 function App() {
@@ -12,7 +12,9 @@ function App() {
       <Header>
         <AppHeader />
       </Header>
-      <Content></Content>
+      <Content>
+        <AppHome />
+      </Content>
     </Layout>
   );
 }
