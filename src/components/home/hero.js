@@ -22,7 +22,7 @@ const items = [
 ];
 function AppHero() {
   return (
-    <div className="heroBlock">
+    <div id="hero" className="heroBlock">
       <Carousel autoplay>
         {items.map((item, index) => {
           return (
